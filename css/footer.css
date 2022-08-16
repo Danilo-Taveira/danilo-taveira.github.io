@@ -1,0 +1,162 @@
+.footer {
+  background-color: #000;
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 70px 20px 30px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+}
+
+.footer-texto-total {
+  margin-left: 20px;
+}
+
+.footer-texto {
+  font-size: 1.2rem;
+  line-height: 2;
+  margin-bottom: 30px;
+  color: #fafafa;
+}
+
+.footer-frase, .footer-autor {
+  color: #ccc;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+
+.footer-autor {
+  color: #525252;
+}
+
+.footer-contato li {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 30px;
+  margin-left: 250px;
+  position: relative;
+}
+
+.footer-linkedin {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 70px;
+  right: 50px;
+}
+
+.footer-email {
+  position: relative;
+}
+
+.footer-email::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: -60px;
+  right: 195px;
+  background: url(../imagens/símbolo\ email.svg) no-repeat center;
+}
+
+.footer-telefone {
+  position: relative;
+}
+
+.footer-telefone::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: -60px;
+  right: 195px;
+  background: url(../imagens/símbolo\ whatsapp.svg) no-repeat center;
+}
+
+.footer-instagram {
+  position: relative;
+}
+
+.footer-instagram a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-instagram::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: -60px;
+  right: 195px;
+  background: url(../imagens/símbolo\ instagram.svg) no-repeat center;
+}
+
+@media (max-width: 1200px) {
+  .footer-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-contato li {
+    margin-left: 10px;
+  }
+  .footer-linkedin {
+    display: none;
+  }
+  .footer-contato {
+    margin-left: 40px;
+  }
+  .footer-texto {
+    padding-right: 40px;
+    font-size: 1rem;
+  }
+  .footer-instagram::after {
+    left: -90px;
+  }
+  .footer-email::after {
+    left: -90px;
+  }
+  .footer-telefone::after {
+    left: -90px;
+  }
+}
+
+@media (max-width: 660px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+  .footer-texto-total {
+    margin-bottom: 20px;
+  }
+  .footer-texto {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .footer-frase {
+    font-size: 0.7rem;
+  }
+  .footer-autor {
+    font-size: 0.7rem;
+  }
+  .footer-contato li {
+    font-size: 1rem;
+  }
+  .footer-telefone::after {
+    top: -65px;
+  }
+  .footer-instagram::after {
+    top: -65px;
+  }
+  .footer-email::after {
+    top: -65px;
+  }
+}

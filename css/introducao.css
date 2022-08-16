@@ -1,0 +1,125 @@
+.introducao {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.introducao-img-perfil {
+  width: 312px;
+  min-width: 312px;
+  height: 312px;
+  max-height: 312px;
+  margin-right: 40px;
+}
+
+.introducao h1 {
+  font-size: 4rem;
+  line-height: 1.125;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.introducao-texto {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.introducao-texto-descricao {
+  margin-left: 6px;
+}
+
+.introducao h1::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url(../imagens/Detalhe.svg) no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+  z-index: -1;
+}
+
+.introducao h1::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: url(../imagens/símbolo\ código.svg) no-repeat center;
+  position: absolute;
+  left: 540px;
+  top: 10px;
+}
+
+.introducao p {
+  font-size: 1.25rem;
+  color: #525252;
+  gap: 25px;
+}
+
+@media (max-width: 1200px) {
+  .introducao p {
+    font-size: 1.1rem;
+  }
+  .introducao h1 {
+    font-size: 3.35rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+  }
+  .introducao-img-perfil {
+    min-height: 250px;
+    min-width: 250px;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+  }
+  .introducao-texto {
+    margin-top: 60px;
+    margin-left: 10px;
+  }
+  .introducao h1 {
+    font-size: 2.5rem;
+  }
+  .introducao p {
+    font-size: 1rem;
+  }
+  .introducao h1::before {
+    width: 30px;
+    height: 10px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 760px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .introducao-img-perfil {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+  .introducao-texto {
+    margin-left: 30px;
+  }
+  .introducao h1::after {
+    left: 360px;
+    top: -30px;
+  }
+}
+
+@media (max-width: 660px) {
+  .introducao-texto {
+    margin: 30px auto 0px auto;
+  }
+  .introducao h1::after {
+    display: none;
+  }
+}
