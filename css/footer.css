@@ -144,7 +144,7 @@
   }
   .footer-texto {
     font-size: 0.8rem;
-    text-align: start;
+    margin: 0px auto;
   }
   .footer-frase {
     font-size: 0.7rem;
