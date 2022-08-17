@@ -36,6 +36,9 @@
 
 @media (max-width: 450px) {
   .header menu {
-    margin-top: 10px;
+    margin-top: 20px;
+  }
+  .header {
+    gap: 20px;
   }
 }
