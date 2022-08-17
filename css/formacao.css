@@ -216,10 +216,14 @@
     padding: 10px auto;
   }
   .formacao-subtitulo {
+    margin: 0 auto;
     text-align: center;
   }
+  .formacao-texto {
+    margin: 0 auto;
+  }
   .faculdade-lista-1, .faculdade-lista-2 {
-    margin-top: 20px;
+    margin: 20px auto 0px auto;
     height: 100px;
   }
   .faculdade-lista-1 {
