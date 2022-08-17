@@ -142,9 +142,8 @@
   .footer-texto-total {
     margin-bottom: 20px;
   }
-  .footer-texto {
+  .footer-texto p {
     font-size: 0.8rem;
-    margin: 0px auto;
   }
   .footer-frase {
     font-size: 0.7rem;
