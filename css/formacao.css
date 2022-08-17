@@ -253,3 +253,9 @@
     height: 175px;
   }
 }
+
+@media (max-width: 400px) {
+  .faculdade-lista-1, faculdade-lista-2 {
+    width: 70%;
+  }
+}
