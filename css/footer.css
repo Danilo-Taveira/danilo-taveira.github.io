@@ -69,6 +69,7 @@
 
 .footer-telefone {
   position: relative;
+  text-decoration: none;
 }
 
 .footer-telefone::after {
@@ -109,9 +110,6 @@
   .footer-contato li {
     margin-left: 10px;
   }
-  .footer-linkedin {
-    display: none;
-  }
   .footer-contato {
     margin-left: 40px;
   }
@@ -127,6 +125,12 @@
   }
   .footer-telefone::after {
     left: -90px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .footer-linkedin {
+    display: none;
   }
 }
 
