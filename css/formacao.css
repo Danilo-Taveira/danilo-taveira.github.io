@@ -213,13 +213,13 @@
 @media (max-width: 660px) {
   .formacao-container {
     grid-template-columns: 1fr;
-    padding: 10px 0px;
+    padding: 10px auto;
   }
   .formacao-texto {
     margin-left: 20px;
   }
   .formacao-subtitulo {
-    margin-left: 20px;
+    margin-left: 15px;
   }
   .faculdade-lista-1, .faculdade-lista-2 {
     margin: 20px auto 0px auto;
@@ -232,7 +232,7 @@
     height: 140px;
   }
   .primeiro-grid {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 0px;
     margin-left: 25px;
   }

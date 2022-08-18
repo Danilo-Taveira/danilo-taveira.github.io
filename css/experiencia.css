@@ -129,7 +129,9 @@
 .empresa-habilidades {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
   align-content: start;
   margin-left: 30px;
 }
@@ -269,9 +271,5 @@
   .empresa {
     width: auto;
     margin: 10px 25px 30px 25px;
-  }
-  .empresa-habilidades {
-    margin-right: 3px;
-    margin-bottom: 3px;
   }
 }
