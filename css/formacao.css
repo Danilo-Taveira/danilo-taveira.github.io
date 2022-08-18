@@ -213,7 +213,7 @@
 @media (max-width: 660px) {
   .formacao-container {
     grid-template-columns: 1fr;
-    padding: 10px auto;
+    padding: 10px 0px;
   }
   .formacao-texto {
     margin-left: 20px;
@@ -232,15 +232,15 @@
     height: 140px;
   }
   .primeiro-grid {
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 0px;
-    margin-left: 10px;
+    margin-left: 15px;
   }
   .formacao-extra {
     margin-left: 30px;
   }
   .segundo-grid {
-    margin-left: 0px;
+    margin-left: 15px;
     margin-bottom: 60px;
   }
 }
