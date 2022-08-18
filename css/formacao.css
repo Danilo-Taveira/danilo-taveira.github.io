@@ -233,13 +233,14 @@
   }
   .primeiro-grid {
     margin-bottom: 0px;
+    margin-left: 25px;
   }
   .formacao-extra {
     margin-left: 30px;
   }
   .segundo-grid {
     margin-left: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
 }
 

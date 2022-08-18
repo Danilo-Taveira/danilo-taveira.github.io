@@ -38,4 +38,7 @@
   .header-menu {
     margin-top: 20px;
   }
+  .header {
+    gap: 10px;
+  }
 }
