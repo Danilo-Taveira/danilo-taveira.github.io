@@ -70,7 +70,7 @@
 .footer-telefone {
   position: relative;
   color: #FFF;
-  text-decoration-line: none;
+  text-decoration-style: none;
 }
 
 .footer-telefone::after {

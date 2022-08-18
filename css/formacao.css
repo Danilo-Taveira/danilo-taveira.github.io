@@ -213,7 +213,7 @@
 @media (max-width: 660px) {
   .formacao-container {
     grid-template-columns: 1fr;
-    padding: 10px auto;
+    padding: 10px 0px;
   }
   .formacao-texto {
     margin-left: 20px;
