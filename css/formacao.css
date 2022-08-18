@@ -223,7 +223,8 @@
     margin-left: 15px;
   }
   .faculdade-lista-1, .faculdade-lista-2 {
-    margin: 20px auto 0px auto;
+    margin-top: 20px;
+    padding: 0px auto;
     height: 100px;
   }
   .faculdade-lista-1 {
@@ -241,7 +242,6 @@
     margin-left: 30px;
   }
   .segundo-grid {
-    padding: 0px auto;
     margin-bottom: 60px;
   }
 }
