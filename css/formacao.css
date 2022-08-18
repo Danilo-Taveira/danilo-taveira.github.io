@@ -225,7 +225,7 @@
   .faculdade-lista-1, .faculdade-lista-2 {
     margin-top: 20px;
     height: 100px;
-    width: 80%;
+    width: 85%;
   }
   .faculdade-lista-1 {
     height: 140px;
@@ -243,6 +243,7 @@
   }
   .segundo-grid {
     margin-right: 30px;
+    margin-bottom: 40px;
   }
 }
 
@@ -250,19 +251,12 @@
   .faculdade-lista-2 {
     height: 155px;
   }
-}
-
-@media (max-width: 451px) {
-  .faculdade-lista-1 {
-    height: 160px;
-  }
-  .faculdade-lista-1, .faculdade-lista-2 {
-    width: 70%;
-  }
-}
-
-@media (max-width: 439px) {
   .faculdade-lista-1 {
     height: 175px;
   }
+}
+
+@media (max-width: 390px) {
+  .faculdade-lista-1, .faculdade-lista-2 {
+    width: 75%;
 }
