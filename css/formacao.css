@@ -210,7 +210,7 @@
   }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 740px) {
   .formacao-container {
     grid-template-columns: 1fr;
     padding: 10px 0px;
@@ -225,7 +225,7 @@
   .faculdade-lista-1, .faculdade-lista-2 {
     margin-top: 20px;
     height: 100px;
-    width: 90%;
+    width: 80%;
   }
   .faculdade-lista-1 {
     height: 140px;
@@ -241,6 +241,9 @@
   .formacao-extra {
     margin-left: 30px;
   }
+  .segundo-grid {
+    margin-right: 30px;
+  }
 }
 
 @media (max-width: 485px) {
@@ -252,6 +255,9 @@
 @media (max-width: 451px) {
   .faculdade-lista-1 {
     height: 160px;
+  }
+  .faculdade-lista-1, .faculdade-lista-2 {
+    width: 70%;
   }
 }
 

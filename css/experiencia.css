@@ -146,21 +146,25 @@
 .html {
   background: linear-gradient(#F16529,#E44D26);
   margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .css {
   background: linear-gradient(#264DE4,#2965F1);
   margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .javascript {
   background: linear-gradient(#DFC549,#A88B00);
   margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .ui-design {
   background: linear-gradient(#1E7D22,#042D06);
   margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .ux-design {
