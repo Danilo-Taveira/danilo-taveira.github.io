@@ -232,6 +232,7 @@
     height: 140px;
   }
   .primeiro-grid {
+    margin-top: 30px;
     margin-bottom: 0px;
     margin-left: 25px;
   }
@@ -259,5 +260,8 @@
 @media (max-width: 439px) {
   .faculdade-lista-1 {
     height: 175px;
+  }
+  .faculdade-lista-1, .faculdade-lista-2 {
+    width: 90%;
   }
 }
