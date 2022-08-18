@@ -169,6 +169,7 @@
 
 .ux-design {
   background: linear-gradient(#E42654,#51081A);
+  margin-bottom: 5px;
 }
 
 @media (max-width: 1200px) {
