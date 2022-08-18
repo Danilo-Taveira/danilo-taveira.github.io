@@ -56,6 +56,11 @@
   position: relative;
 }
 
+.footer-email a {
+  text-decoration: none;
+  color: #FFF;
+}
+
 .footer-email::after {
   content: "";
   display: block;
@@ -71,6 +76,11 @@
   position: relative;
   color: #FFF;
   text-decoration-style: none;
+}
+
+.footer-telefone a {
+  text-decoration: none;
+  color: #FFF;
 }
 
 .footer-telefone::after {
