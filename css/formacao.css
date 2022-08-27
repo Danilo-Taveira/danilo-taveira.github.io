@@ -236,7 +236,6 @@
   .primeiro-grid {
     margin-top: 10px;
     margin-bottom: 0px;
-    margin-left: 15px;
   }
   .formacao-extra {
     margin-left: 30px;
@@ -247,10 +246,13 @@
   }
 }
 
-@media (max-width: 485px) {
+@media (max-width: 477px) {
   .faculdade-lista-2 {
     height: 155px;
   }
+}
+
+@media (max-width: 437px) {
   .faculdade-lista-1 {
     height: 175px;
   }
