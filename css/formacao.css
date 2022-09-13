@@ -216,11 +216,11 @@
     padding: 10px 0px;
   }
   .formacao-texto {
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .formacao-subtitulo {
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 0px;
   }
   .faculdade-lista-1, .faculdade-lista-2 {
     margin-top: 20px;
@@ -236,6 +236,7 @@
   .primeiro-grid {
     margin-top: 10px;
     margin-bottom: 0px;
+    margin-left: 30px;
   }
   .formacao-extra {
     margin-left: 30px;
