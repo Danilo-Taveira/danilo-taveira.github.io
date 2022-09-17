@@ -143,6 +143,10 @@
   color: white;
 }
 
+.empresa-link a {
+  color: #111111;
+}
+
 .html {
   background: linear-gradient(#F16529,#E44D26);
   margin-right: 5px;
